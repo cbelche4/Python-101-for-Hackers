@@ -1,1 +1,146 @@
+# 🐍 Python 101 for Hackers – Variable Demo
+
+Welcome! This repository is part of my learning journey through **Python 101 for Hackers** by TCM Academy.  
+This script demonstrates how **Python variables** work and introduces basic data types in a way that even non-technical readers can understand.
+
+---
+
+## 🔍 What This Script Does
+
+This script is all about **variables**—which are like labeled boxes where we store data.  
+In Python, we can store different kinds of things like names, numbers, lists, or even True/False values.
+
+---
+
+## 🧠 Step-by-Step Breakdown
+
+```python
+name = "neut"
+print(name)
+📦 We create a variable called name and store the word "neut" in it. Then, we print it.
+
+python
+Copy
+Edit
+name_length = 4
+print(name_length)
+📦 We store the number 4 in a variable called name_length.
+
+python
+Copy
+Edit
+name, name_length = "neut", 4
+✨ We assign values to two variables at once.
+
+python
+Copy
+Edit
+print(type(name))
+print(type(name_length))
+🔍 We check what kind of data each variable holds:
+
+name is a string (text)
+
+name_length is an integer (number)
+
+python
+Copy
+Edit
+name_length = int("4")
+print(type(name_length))
+🔁 We convert the string "4" into a number using int().
+
+python
+Copy
+Edit
+name_length = 4
+Name_length = 5
+
+print(name_length)
+print(Name_length)
+⚠️ Python is case-sensitive! name_length and Name_length are different variables.
+
+python
+Copy
+Edit
+name_list = ["neut", "247CTF", "asd"]
+print(type(name_list))
+🗂️ We create a list—a collection of multiple values.
+
+python
+Copy
+Edit
+name1, name2, name3 = name_list
+print(name1)
+print(name2)
+print(name3)
+🧩 We split the list into three separate variables.
+
+python
+Copy
+Edit
+name_tuple = ("neut", "247CTF")
+print(type(name_tuple))
+🔒 A tuple is a fixed collection of values. We can’t change it after it's created.
+
+python
+Copy
+Edit
+name_boolean = True
+print(type(name_boolean))
+✅ A Boolean is a value that is either True or False.
+
+python
+Copy
+Edit
+name_range = range(6)
+print(type(name_range))
+📈 A range represents numbers from 0 up to (but not including) 6.
+
+python
+Copy
+Edit
+name_bytes = b"neut2"
+print(type(name_bytes))
+💾 Bytes are raw data. Used in hacking, file manipulation, and networking.
+
+python
+Copy
+Edit
+name_dictionary = {"neut": 4, "247CTF": 6}
+print(type(name_dictionary))
+📚 A dictionary stores data in key-value pairs, like a mini database.
+
+python
+Copy
+Edit
+print(name_tuple)
+print(name_list)
+print(name_dictionary)
+print(name_boolean)
+print(name_range)
+print(name_bytes)
+🖨️ Finally, we print out all the different types of variables we've created.
+
+🧩 Summary
+In this script, we learned about:
+
+str: Strings (text)
+
+int: Integers (numbers)
+
+list: Editable collections
+
+tuple: Unchangeable collections
+
+bool: True/False values
+
+range: Sequences of numbers
+
+bytes: Raw binary data
+
+dict: Key-value storage
+
+This is the foundation of Python programming and sets the stage for writing real hacking tools.
+Stay tuned for more! 
 
